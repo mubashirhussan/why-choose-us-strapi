@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "why_choose_uses",
+  "info": {
+    "singularName": "why-choose-us",
+    "pluralName": "why-choose-uses",
+    "displayName": "Why Choose Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string",
+      "default": "Why Choose Us"
+    },
+    "Title": {
+      "type": "string",
+      "default": "We Are Different From Others"
+    },
+    "Description": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit..."
+    },
+    "Feature": {
+      "displayName": "Features",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.features"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
